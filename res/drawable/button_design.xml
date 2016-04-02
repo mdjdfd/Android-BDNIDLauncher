@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item android:state_pressed="true" >
+        <shape>
+            <gradient
+                android:startColor="@color/pressedStartColor"
+                android:endColor="@color/pressedStopColor"
+                android:angle="270"/>
+            <stroke
+                android:width="4dp"
+                android:color="@color/buttonStrokeColor"/>
+            <corners
+                android:topRightRadius="20dp"
+                android:bottomRightRadius="20dp"
+                android:topLeftRadius="20dp"
+                android:bottomLeftRadius="20dp"
+                />
+            <padding
+                android:left="20dp"
+                android:top="20dp"
+                android:right="20dp"
+                android:bottom="20dp"/>
+        </shape>
+    </item>
+
+    <item android:state_focused="true" >
+        <shape>
+           <gradient
+                android:endColor="@color/focusedStartColor"
+                android:startColor="@color/focusedStopColor"
+                android:angle="270" />
+            <stroke
+                android:width="4dp"
+                android:color="@color/focusedStartColor" />
+            <corners
+                android:topLeftRadius="20dp"
+                android:bottomLeftRadius="20dp"
+                android:topRightRadius="20dp"
+                android:bottomRightRadius="20dp"
+                />
+            <padding
+                android:left="20dp"
+                android:top="20dp"
+                android:right="20dp"
+                android:bottom="20dp" />
+        </shape>
+    </item>
+
+    <item>        
+        <shape>
+            <gradient
+                 android:endColor="@color/buttonStartColor"
+                android:startColor="@color/buttonStopColor"
+                android:angle="270"/>
+            <stroke
+                android:width="4dp"
+                android:color="@color/buttonStrokeColor"/>
+            <corners
+                android:topLeftRadius="20dp"
+                android:bottomLeftRadius="20dp"
+                android:topRightRadius="20dp"
+                android:bottomRightRadius="20dp"
+                />
+            <padding
+                android:left="45dp"
+                android:top="45dp"
+                android:right="45dp"
+                android:bottom="45dp" />
+        </shape>
+    </item>
+  
+</selector>

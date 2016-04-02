@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--  <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?android:attr/activatedBackgroundIndicator"
+    android:orientation="vertical" >
+
+    
+    
+    <TextView android:id="@+id/uniqueKey"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dip"
+        android:textSize="16dip"
+        android:textStyle="bold"/>
+    
+    
+    <TextView android:id="@+id/nameList"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="0dip"
+        android:paddingLeft="5dip"
+        android:paddingRight="5dip"
+        android:paddingBottom="5dip"
+        android:textSize="12dip"
+        android:textStyle="bold"/>
+    
+     <TextView android:id="@+id/idnoList"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="0dip"
+        android:paddingLeft="5dip"
+        android:paddingRight="5dip"
+        android:paddingBottom="5dip"
+        android:textSize="12dip"
+        android:textStyle="bold"/> 
+
+</LinearLayout>-->
+
+
+
+<FrameLayout
+   xmlns:android="http://schemas.android.com/apk/res/android"
+   android:layout_width="match_parent"
+   android:layout_height="wrap_content"
+   android:paddingLeft="15dp"
+   android:paddingRight="15dp"
+   android:background="?android:attr/activatedBackgroundIndicator"
+   android:descendantFocusability="beforeDescendants">
+
+    
+   <LinearLayout
+      android:orientation="vertical"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:padding="10dp"
+      android:background="@drawable/selector_card_background"
+      android:descendantFocusability="afterDescendants">
+
+    <!--  <TextView android:id="@+id/uniqueKey"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dip"
+        android:textSize="16dip"
+        android:textStyle="bold"/>-->
+    
+    
+    <TextView android:id="@+id/nameList"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="0dip"
+        android:paddingLeft="5dip"
+        android:paddingRight="5dip"
+        android:paddingBottom="5dip"
+        android:textColor="@android:color/white"
+        android:textSize="15dip"
+        android:textStyle="bold"/>
+    
+     <TextView android:id="@+id/idnoList"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="0dip"
+        android:paddingLeft="5dip"
+        android:paddingRight="5dip"
+        android:paddingBottom="5dip"
+        android:textColor="@android:color/white"
+        android:textSize="12dip"
+        android:textStyle="bold"/> 
+   </LinearLayout>
+</FrameLayout>
+

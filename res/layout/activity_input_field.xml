@@ -1,0 +1,226 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/radial_background"
+    android:orientation="vertical"
+    android:weightSum="1"
+    tools:context="com.info.bdnationalid.InputFieldActivity" >
+    
+    
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:layout_weight="1" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_margin="0dp"
+            android:padding="10dp"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Name"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/myName"
+                android:layout_width="fill_parent"
+                android:layout_height="45dp"
+                android:background="@drawable/rounded_edittext"
+                android:gravity="center"
+                android:inputType="textPersonName"
+                android:singleLine="true"
+                android:padding="12dp"
+                android:text="@string/empty"
+                android:textColor="@android:color/white"
+                android:textStyle="bold">
+                <requestFocus />
+            </EditText>
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/father"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/fatherName"
+                android:layout_width="fill_parent"
+                android:layout_height="45dp"
+                android:background="@drawable/rounded_edittext"
+                android:gravity="center"
+                android:inputType="textPersonName"
+                android:singleLine="true"
+                android:padding="12dp"
+                android:text="@string/empty"
+                android:textColor="@android:color/white"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/mother"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/motherName"
+                android:layout_width="fill_parent"
+                android:layout_height="45dp"
+                android:background="@drawable/rounded_edittext"
+                android:gravity="center"
+                android:inputType="textPersonName"
+                android:singleLine="true"
+                android:padding="12dp"
+                android:text="@string/empty"
+                android:textColor="@android:color/white"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/occup"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/occupation"
+                android:layout_width="fill_parent"
+                android:layout_height="45dp"
+                android:background="@drawable/rounded_edittext"
+                android:singleLine="true"
+                android:gravity="center"
+                android:inputType="text"
+                android:padding="12dp"
+                android:text="@string/empty"
+                android:textColor="@android:color/white"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/birth"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/datePicker"
+                android:layout_width="fill_parent"
+                android:layout_height="45dp"
+                android:background="@drawable/rounded_edittext"
+                android:text="Select Date of Birth"
+                android:textColor="@android:color/white"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/idNo"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/idNo"
+                android:layout_width="fill_parent"
+                android:layout_height="45dp"
+                android:background="@drawable/rounded_edittext"
+                android:gravity="center"
+                android:padding="12dp"
+                android:singleLine="true"
+                android:text="@string/empty"
+                android:textColor="@android:color/white"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/address"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/address"
+                android:layout_width="fill_parent"
+                android:layout_height="45dp"
+                android:background="@drawable/rounded_edittext"
+                android:gravity="center"
+                android:padding="12dp"
+                android:text="@string/empty"
+                android:textColor="@android:color/white"
+                android:textStyle="bold" />
+        </LinearLayout>
+    </ScrollView>
+    
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="0dp"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal"
+        android:weightSum="4" >
+    
+        <Button
+            android:id="@+id/submitBtn"
+            android:background="@drawable/footer_button_design"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:textStyle="bold"
+            android:textSize="16dip"
+            android:textColor="@android:color/black"
+            android:layout_weight="1"
+            android:text="@string/submit" />
+        
+        <Button
+            android:id="@+id/nationalIDList"
+            android:background="@drawable/footer_button_design"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:textStyle="bold"
+            android:textSize="16dip"
+            android:textColor="@android:color/black"
+            android:layout_weight="1"
+            android:text="@string/nationalid" />
+        
+         <Button
+            android:id="@+id/importb"
+            android:background="@drawable/footer_button_design"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:textStyle="bold"
+            android:textSize="16dip"
+            android:textColor="@android:color/black"
+            android:layout_weight="1"
+            android:text="@string/importbtn" />
+          <Button
+            android:id="@+id/exportb"
+            android:background="@drawable/footer_button_design"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:textStyle="bold"
+            android:textSize="16dip"
+            android:textColor="@android:color/black"
+            android:layout_weight="1"
+            android:text="@string/exportbtn" />
+        
+        
+    </LinearLayout>
+        
+        
+
+
+</LinearLayout>

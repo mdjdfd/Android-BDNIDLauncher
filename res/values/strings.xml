@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Bangladesh NID Launcher</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="empty"></string>
+    <string name="myName">Name</string>
+    <string name="Name">নাম:</string>
+    <string name="father">পিতা:</string>
+    <string name="mother">মাতা:</string>
+    <string name="occup">পেশা:</string>
+    <string name="birth">জন্ম তারিখ:</string>
+    <string name="idNo">ভোটার নং:</string>
+    <string name="address">ঠিকানা:</string>
+    <string name="submit">Add</string>
+    <string name="title_activity_nidlist">Indentity Search</string>
+    <string name="title_activity_input_field">Add New Identity</string>
+    <string name="nationalid">All National ID</string>
+    <string name="delete">Delete</string>
+    <string name="select">Select All</string>
+    <string name="search">Search</string>
+    <string name="exportbtn">Export</string>
+    <string name="importbtn">Import</string>
+    <string name="aboutbtn">About</string>
+    <string name="about_title">About The Application</string>
+    <string name="about_text"><b>Md.Junaid Fahad\nOpen Source Developer\nfahadcse11@gmail.com\n\n</b></string>
+    <string name="app_details"><i>This application is made for listing Bangladeshi National ID information from excel sheet as well as adding new identity from mobile device. It works in both bangla and english language. This app is ideal for the election agent to store data, share data with another agent, match them and erase them. I hope it will be very helpful for them whose are working in the field  for to collect information and for official use to transfer data from MS excel sheet to mobile devices into csv format.</i></string>
+    <string name="title_activity_launcher">LauncherActivity</string>
+    
+    
+    
+    
+    <color name="buttonStartColor">#888</color>
+    <color name="buttonStopColor">#1AFFFFFF</color>
+    <color name="buttonStrokeColor">#4169e1</color>
+    <color name="focusedStartColor">#add8e6</color>
+    <color name="focusedStopColor">#e0ffff</color>
+    <color name="pressedStartColor">#888</color>
+    <color name="pressedStopColor">#1AFFFFFF</color>
+    <color name="backgroundColor">#add8e6</color>
+    <color name="menuTextColor">#000080</color>
+    <color name="spinnerPressedStartColor">#E4EEF4</color>
+    <color name="spinnerPressedCenterColor">#2B1B17</color>
+    <color name="spinnerPressedEndColor">#E4EEF4</color>
+    <color name="spinnerStartColor">#2B1B17</color>
+    <color name="spinnerCenterColor">#E4EEF4</color>
+    <color name="spinnerEndColor">#34282C</color>
+    
+    
+    
+
+</resources>
